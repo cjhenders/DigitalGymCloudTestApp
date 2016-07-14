@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DFF5AE570A71E0D24927EA4 /* libPods-CloudTest2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AF17244CBEE2E04A4B5707 /* libPods-CloudTest2.a */; };
 		5902127F1D35744400951116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5902127E1D35744400951116 /* AppDelegate.swift */; };
-		590212811D35744400951116 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590212801D35744400951116 /* ViewController.swift */; };
+		590212811D35744400951116 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590212801D35744400951116 /* WorkoutViewController.swift */; };
 		590212841D35744400951116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590212821D35744400951116 /* Main.storyboard */; };
 		590212861D35744400951116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 590212851D35744400951116 /* Assets.xcassets */; };
 		590212891D35744400951116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590212871D35744400951116 /* LaunchScreen.storyboard */; };
 		590212941D35744400951116 /* CloudTest2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590212931D35744400951116 /* CloudTest2Tests.swift */; };
+		590212CF1D3587E700951116 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590212C81D3587DB00951116 /* Charts.framework */; };
+		590212D01D3587E700951116 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 590212C81D3587DB00951116 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		590212D51D35915500951116 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590212D41D35915500951116 /* Workout.swift */; };
+		590212D61D35915500951116 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590212D41D35915500951116 /* Workout.swift */; };
+		590212D81D35983700951116 /* WorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590212D71D35983700951116 /* WorkoutTableViewCell.swift */; };
+		590212DA1D359E3200951116 /* WorkoutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590212D91D359E3200951116 /* WorkoutTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +30,64 @@
 			remoteGlobalIDString = 5902127A1D35744400951116;
 			remoteInfo = CloudTest2;
 		};
+		590212C71D3587DB00951116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590212C01D3587DB00951116 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		590212C91D3587DB00951116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590212C01D3587DB00951116 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		590212CB1D3587DB00951116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590212C01D3587DB00951116 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65B3F5BF1C7370BE000983D0;
+			remoteInfo = "Charts-OSX";
+		};
+		590212CD1D3587DB00951116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590212C01D3587DB00951116 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+		590212D11D3587E700951116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590212C01D3587DB00951116 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		590212D31D3587E700951116 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				590212D01D3587E700951116 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		069070FA396CC67550D29275 /* Pods-CloudTest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudTest2.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudTest2/Pods-CloudTest2.release.xcconfig"; sourceTree = "<group>"; };
+		0C110415725DA90420BD8B28 /* Pods-CloudTest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudTest2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudTest2/Pods-CloudTest2.debug.xcconfig"; sourceTree = "<group>"; };
+		16AF17244CBEE2E04A4B5707 /* libPods-CloudTest2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CloudTest2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5902127B1D35744400951116 /* CloudTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5902127E1D35744400951116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		590212801D35744400951116 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		590212801D35744400951116 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
 		590212831D35744400951116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		590212851D35744400951116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		590212881D35744400951116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +95,12 @@
 		5902128F1D35744400951116 /* CloudTest2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudTest2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		590212931D35744400951116 /* CloudTest2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudTest2Tests.swift; sourceTree = "<group>"; };
 		590212951D35744400951116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5902129F1D3581E900951116 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		590212A11D3584E100951116 /* CloudantSync-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CloudantSync-Bridging-Header.h"; path = "CloudTest2/CloudantSync-Bridging-Header.h"; sourceTree = "<group>"; };
+		590212C01D3587DB00951116 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../Downloads/Charts-master/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
+		590212D41D35915500951116 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		590212D71D35983700951116 /* WorkoutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewCell.swift; sourceTree = "<group>"; };
+		590212D91D359E3200951116 /* WorkoutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +108,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFF5AE570A71E0D24927EA4 /* libPods-CloudTest2.a in Frameworks */,
+				590212CF1D3587E700951116 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +126,14 @@
 		590212721D35744400951116 = {
 			isa = PBXGroup;
 			children = (
+				590212A11D3584E100951116 /* CloudantSync-Bridging-Header.h */,
+				5902129F1D3581E900951116 /* Podfile */,
 				5902127D1D35744400951116 /* CloudTest2 */,
 				590212921D35744400951116 /* CloudTest2Tests */,
 				5902127C1D35744400951116 /* Products */,
+				F65C5B0F02337D3B43B14388 /* Pods */,
+				C83E00438BF1DD4F73BF89F7 /* Frameworks */,
+				590212C01D3587DB00951116 /* Charts.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +150,11 @@
 			isa = PBXGroup;
 			children = (
 				5902127E1D35744400951116 /* AppDelegate.swift */,
-				590212801D35744400951116 /* ViewController.swift */,
+				590212801D35744400951116 /* WorkoutViewController.swift */,
+				590212D41D35915500951116 /* Workout.swift */,
 				590212821D35744400951116 /* Main.storyboard */,
+				590212D91D359E3200951116 /* WorkoutTableViewController.swift */,
+				590212D71D35983700951116 /* WorkoutTableViewCell.swift */,
 				590212851D35744400951116 /* Assets.xcassets */,
 				590212871D35744400951116 /* LaunchScreen.storyboard */,
 				5902128A1D35744400951116 /* Info.plist */,
@@ -96,6 +171,34 @@
 			path = CloudTest2Tests;
 			sourceTree = "<group>";
 		};
+		590212C11D3587DB00951116 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				590212C81D3587DB00951116 /* Charts.framework */,
+				590212CA1D3587DB00951116 /* Charts.framework */,
+				590212CC1D3587DB00951116 /* Charts.framework */,
+				590212CE1D3587DB00951116 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C83E00438BF1DD4F73BF89F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16AF17244CBEE2E04A4B5707 /* libPods-CloudTest2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F65C5B0F02337D3B43B14388 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C110415725DA90420BD8B28 /* Pods-CloudTest2.debug.xcconfig */,
+				069070FA396CC67550D29275 /* Pods-CloudTest2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,13 +206,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 590212981D35744400951116 /* Build configuration list for PBXNativeTarget "CloudTest2" */;
 			buildPhases = (
+				67F8B00DD9DCF1D679E031F1 /* [CP] Check Pods Manifest.lock */,
 				590212771D35744400951116 /* Sources */,
 				590212781D35744400951116 /* Frameworks */,
 				590212791D35744400951116 /* Resources */,
+				238ABF26501E82F2DC5736D3 /* [CP] Embed Pods Frameworks */,
+				FC447F83DA94BD7511A5F208 /* [CP] Copy Pods Resources */,
+				590212D31D3587E700951116 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				590212D21D3587E700951116 /* PBXTargetDependency */,
 			);
 			name = CloudTest2;
 			productName = CloudTest2;
@@ -164,6 +272,12 @@
 			mainGroup = 590212721D35744400951116;
 			productRefGroup = 5902127C1D35744400951116 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 590212C11D3587DB00951116 /* Products */;
+					ProjectRef = 590212C01D3587DB00951116 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5902127A1D35744400951116 /* CloudTest2 */,
@@ -171,6 +285,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		590212C81D3587DB00951116 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 590212C71D3587DB00951116 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		590212CA1D3587DB00951116 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 590212C91D3587DB00951116 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		590212CC1D3587DB00951116 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 590212CB1D3587DB00951116 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		590212CE1D3587DB00951116 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 590212CD1D3587DB00951116 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		590212791D35744400951116 /* Resources */ = {
@@ -192,13 +337,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		238ABF26501E82F2DC5736D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudTest2/Pods-CloudTest2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67F8B00DD9DCF1D679E031F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC447F83DA94BD7511A5F208 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudTest2/Pods-CloudTest2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		590212771D35744400951116 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				590212811D35744400951116 /* ViewController.swift in Sources */,
+				590212DA1D359E3200951116 /* WorkoutTableViewController.swift in Sources */,
+				590212811D35744400951116 /* WorkoutViewController.swift in Sources */,
 				5902127F1D35744400951116 /* AppDelegate.swift in Sources */,
+				590212D51D35915500951116 /* Workout.swift in Sources */,
+				590212D81D35983700951116 /* WorkoutTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				590212941D35744400951116 /* CloudTest2Tests.swift in Sources */,
+				590212D61D35915500951116 /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +414,11 @@
 			isa = PBXTargetDependency;
 			target = 5902127A1D35744400951116 /* CloudTest2 */;
 			targetProxy = 590212901D35744400951116 /* PBXContainerItemProxy */;
+		};
+		590212D21D3587E700951116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Charts-iOS";
+			targetProxy = 590212D11D3587E700951116 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -327,23 +529,29 @@
 		};
 		590212991D35744400951116 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C110415725DA90420BD8B28 /* Pods-CloudTest2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = CloudTest2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Gym.CloudTest2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CloudTest2/CloudantSync-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		5902129A1D35744400951116 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 069070FA396CC67550D29275 /* Pods-CloudTest2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = CloudTest2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Gym.CloudTest2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CloudTest2/CloudantSync-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -390,6 +598,7 @@
 				5902129A1D35744400951116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5902129B1D35744400951116 /* Build configuration list for PBXNativeTarget "CloudTest2Tests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +607,7 @@
 				5902129D1D35744400951116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
